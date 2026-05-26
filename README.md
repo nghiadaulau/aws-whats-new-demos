@@ -13,7 +13,7 @@ Each folder is one feature. Scripts use the AWS CLI and clean up after themselve
 | 03 | **DynamoDB Multi-Region Strong Consistency** | 3-participant global table, write in one Region → strong read in another, immediately | small |
 | 04 | **Bedrock open-weight models** | invoke Qwen3 and gpt-oss through the unified Converse API | tiny (tokens) |
 | 05 | **Security Hub (GA)** | enable → describe → disable (the real value is the console) | ~$0 if disabled right away |
-| 06 | **EKS Capabilities** | managed Argo CD reference command (full cluster demo planned for a later edition) | — |
+| 06 | **EKS Capabilities** | create a cluster, enable **managed Argo CD** (one `create-capability` call), verify Argo CD CRDs land in the cluster | ~$1 (short-lived cluster) |
 
 ## Run
 
